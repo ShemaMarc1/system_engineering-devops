@@ -1,2 +1,2 @@
 #!/bin/bash
-# This script creates a file named \'"Best School"\'\\$\?*:) containing "Best School" with a newline echo -ne "Best School\n" > "\\\\'\"Best School\"\\\'\\\\\$\\?*\\:)"
+#This script creates a file named \'"Best School"\'\\$\?*:) containing "Best School" with a newline echo -ne "Best School\n" > "\\\\'\"Best School\"\\\'\\\\\$\\?*\\:)

@@ -5,6 +5,6 @@ for file in *; do
     echo "${file#*-}"
   else
     echo "$file"
-  if else
-  if
+  if 
+  end if
 done

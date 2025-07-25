@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#The objective of this task is to ensure you can efficiently find processes by name and display only their Process ID (PID) and the process name itself, without having to parse a large output.
+for pid_dir in /proc/[0-9]*; do
+    pid=$(basename "$pid_dir")
+    if [[ -r "$pid_dir/comm" ]]; then
+        name=$(cat "$pid_dir/comm")
+        if [[ "$name" == bash ]]; then
+            echo "$pid $name"
+        fi
+    fi
+done

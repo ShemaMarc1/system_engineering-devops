@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#The objective of this task is to ensure you can create an infinite loop in Bash and control its pace using the sleep command
+while true; do
+    echo "To infinity and beyond"
+    sleep 2
+done
